@@ -1,6 +1,7 @@
 #include <Arduino.h>
 
 #define LED 2
+int numero = 10;
 
 void setup()
 {
@@ -10,6 +11,7 @@ void setup()
 
 void loop()
 {
+
   delay(500);              // Realizar retardos de tiempo en milisegundos
   digitalWrite(LED, HIGH); // Escribir en un pin, ya sea un alto (HIGH) o bajo (LOW)
 
